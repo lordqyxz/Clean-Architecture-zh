@@ -26,11 +26,11 @@ Let’s examine each of these concepts in turn.
 
 The reason encapsulation is cited as part of the definition of OO is that OO languages provide easy and effective encapsulation of data and function. As a result, a line can be drawn around a cohesive set of data and functions. Outside of that line, the data is hidden and only some of the functions are known. We see this concept in action as the private data members and the public member functions of a class.
 
-> 导致封装这个概念经常被引用为面向对象编程定义的一部分。通过釆用封装特性，我们可以把一组相关联的数据和函数圈起来，便圈外血的代码只能看见部分函数，数据则完全不可见。譬如在实际应用中，类（class）中的公共函数和私有成员变量就是这样。
+> 导致封装这个概念经常被引用为面向对象编程定义的一部分。通过釆用封装特性，我们可以把一组相关联的数据和函数圈起来，使圈外面的代码只能看见部分函数，数据则完全不可见。譬如在实际应用中，类（class）中的公共函数和私有成员变量就是这样。
 
 This idea is certainly not unique to OO. Indeed, we had perfect encapsulation in C. Consider this simple C program:
 
-> 然而，这个特性其实并不是面向对象编程所独有的。其实，c 语言也支持完整的封装，下面来看一个简单的 c 程序：
+> 然而，这个特性其实并不是面向对象编程所独有的。其实，C 语言也支持完整的封装，下面来看一个简单的 C 程序：
 
 point.h
 
@@ -301,7 +301,7 @@ int getchar() {
 
 In other words, getchar() simply calls the function pointed to by the read pointer of the FILE data structure pointed to by STDIN.
 
-> 换句话说，`getchar()` 只是调用了 STDIN 所指向的 FIL E 数据结构体中的 read 函数指针指向的函数。
+> 换句话说，`getchar()` 只是调用了 STDIN 所指向的 FILE 数据结构体中的 read 函数指针指向的函数。
 
 This simple trick is the basis for all polymorphism in OO. In C++, for example, every virtual function within a class has a pointer in a table called a vtable, and all calls to virtual functions go through that table. Constructors of derivatives simply load their versions of those functions into the vtable of the object being created.
 
