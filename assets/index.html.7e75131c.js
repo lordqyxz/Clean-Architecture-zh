@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"Clean Architecture 中文","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"目录","slug":"目录","link":"#目录","children":[]}],"git":{"updatedTime":1669649046000},"filePathRelative":"README.md"}');export{e as data};

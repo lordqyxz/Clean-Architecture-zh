@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-727f19f2","path":"/part3.html","title":"Part3. DESIGN PRINCIPLES 设计原则","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1669649046000},"filePathRelative":"part3.md"}');export{t as data};

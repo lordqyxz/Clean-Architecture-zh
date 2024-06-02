@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-75e8cb30","path":"/part5.html","title":"Part5. ARCHITECTURE 软件架构","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1669649046000},"filePathRelative":"part5.md"}');export{t as data};

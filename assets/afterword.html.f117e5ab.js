@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0b87ecec","path":"/afterword.html","title":"AFTERWORD 后序","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1669649046000},"filePathRelative":"afterword.md"}');export{e as data};

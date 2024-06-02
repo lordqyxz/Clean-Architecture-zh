@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as r,a as e,d as s}from"./app.bf031727.js";const c={},o=e("h1",{id:"part6-details-实现细节",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#part6-details-实现细节","aria-hidden":"true"},"#"),s(" Part6. DETAILS 实现细节")],-1),d=[o];function n(_,i){return a(),r("div",null,d)}const h=t(c,[["render",n],["__file","part6.html.vue"]]);export{h as default};

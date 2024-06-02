@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-7433f291","path":"/part4.html","title":"Part4. COMPONENT PRINCIPLES 组件构建原则","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1669649046000},"filePathRelative":"part4.md"}');export{t as data};
